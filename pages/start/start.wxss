@@ -1,1 +1,38 @@
 /* pages/start/start.wxss */
+page {
+  background-color: #faf2dd;
+}
+
+.container .container1 {
+  position: absolute;
+  top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container .container1 .background {
+  width: 120px;
+  height: 120px;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: 4px 6px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.container .container1 .logo {
+  position: absolute;
+  top: 15px;
+  width: 90px;
+  height: 90px;
+}
+
+.container .container2 {
+  position: absolute;
+  bottom: 30px;
+}
+
+.container .container2 .slogan {
+  object-fit: cover;
+  height: 22.04px;
+  width: 258.35px;
+}

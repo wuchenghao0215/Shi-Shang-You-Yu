@@ -1,2 +1,11 @@
 <!--pages/start/start.wxml-->
-<text>pages/start/start.wxml</text>
+<view class="container">
+  <view class="container1">
+    <view class="background">
+    </view>
+    <image class="logo" src="/images/start/logo.png"/>
+  </view>
+  <view class="container2">
+    <image class="slogan" src="/images/start/slogan.png"/>
+  </view>
+</view>

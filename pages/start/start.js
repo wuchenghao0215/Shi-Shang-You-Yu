@@ -12,7 +12,13 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad(options) {
+    setTimeout(this.goIndex, 2000)
+  },
 
+  goIndex() {
+    wx.switchTab({
+      url: '/pages/index/index',
+    })
   },
 
   /**
