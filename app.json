@@ -1,14 +1,53 @@
 {
-  "pages":[
+  "pages": [
     "pages/start/start",
     "pages/index/index",
+    "pages/community/community",
+    "pages/shop/shop",
+    "pages/message/message",
+    "pages/my/my",
     "pages/logs/logs"
   ],
-  "window":{
+  "window": {
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "食尚有余",
     "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "selectedColor": "#FCB44E",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/images/tab-bar/index.png",
+        "selectedIconPath": "/images/tab-bar/index-selected.png"
+      },
+      {
+        "pagePath": "pages/community/community",
+        "text": "社区",
+        "iconPath": "/images/tab-bar/community.png",
+        "selectedIconPath": "/images/tab-bar/community-selected.png"
+      },
+      {
+        "pagePath": "pages/shop/shop",
+        "text": "商店",
+        "iconPath": "/images/tab-bar/shop.png",
+        "selectedIconPath": "/images/tab-bar/shop-selected.png"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "消息",
+        "iconPath": "/images/tab-bar/message.png",
+        "selectedIconPath": "/images/tab-bar/message-selected.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "/images/tab-bar/my.png",
+        "selectedIconPath": "/images/tab-bar/my-selected.png"
+      }
+    ]
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json",
