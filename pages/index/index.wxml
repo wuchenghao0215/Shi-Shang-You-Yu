@@ -11,3 +11,19 @@
 <view class="advertisement-container">
   <image class="advertisement-image" src="/images/index/advertisement.png" mode="widthFix"/>
 </view>
+<view class="button-container">
+  <button class="coupon">
+    <image class="coupon-image" src="/images/index/coupon.png" mode="widthFix"/>
+    <view class="text-container">
+      <text class="text1">食尚有惠</text>
+      <text class="text2">每日签到领券</text>
+    </view>
+  </button>
+  <button class="square">
+    <image class="square-image" src="/images/index/fish.png" mode="widthFix"/>
+    <view class="text-container">
+      <text class="text1">余食广场</text>
+      <text class="text2">全国临期食品广场</text>
+    </view>
+  </button>
+</view>
