@@ -127,3 +127,25 @@ page {
   font-family: serif;
   font-size: x-small;
 }
+
+.recommend-container {
+  margin-top: 30rpx;
+  display: flex;
+  justify-content: center;
+}
+
+.recommend-container .text-box {
+  background-color: white;
+  border-color: #FCB44E;
+  border-radius: 40rpx;
+  border-style: dashed;
+  border-width: 3rpx;
+  width: 270rpx;
+  height: 70rpx;
+  text-align: center;
+  line-height: 70rpx;
+}
+
+.recommend-container .text-box .text {
+  color: #F36637;
+}

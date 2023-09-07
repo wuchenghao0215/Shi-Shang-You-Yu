@@ -27,3 +27,9 @@
     </view>
   </button>
 </view>
+
+<view class="recommend-container">
+  <view class="text-box">
+    <text class="text">临食推荐</text>
+  </view>
+</view>
